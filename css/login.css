@@ -1,0 +1,226 @@
+body{
+  position: relative;
+width: 100%;
+height: 100vh;
+background: #FFFFFF;
+}
+#logo{
+  position: absolute;
+width: 217px;
+height: 42px;
+left: 217px;
+top: 20px;
+}
+h2{
+  position: absolute;
+width: 364px;
+height: 75px;
+left: 824px;
+top: 232px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 132%;
+text-align: center;
+color: #484747;
+}
+#wel-text{
+  position: absolute;
+width: 457px;
+height: 75px;
+left: 831px;
+top: 306px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 132%;
+color: #484747;
+}
+
+/*Style the input container */
+#ps-container {
+  display: flex;
+  position: absolute;
+width: 453px;
+height: 72px;
+left: 835px;
+top: 465px;
+background: #FFFFFF;
+border: 0.5px solid #C4C4C4;
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 4px;
+}
+#us-container{
+  display: flex;
+  position: absolute;
+  width: 453px;
+  height: 72px;
+  left: 835px;
+  top: 395px;
+  background: #F0EFFF;
+  border: 0.5px solid #C4C4C4;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+/* Style the form icons */
+.icon {
+  padding: 30px;
+  color: #c4c4c4;
+  min-width: 50px;
+  text-align: center;
+}
+
+ #username{
+background: #F0EFFF;
+}
+#password{
+background: #FFFFFF;
+
+}
+#check{
+  position: absolute;
+  height: 21px;
+  left: 870px;
+  top: 575px;
+
+background: #585B8A;
+}
+#rem{
+  position: absolute;
+width: 124px;
+height: 21px;
+left: 888px;
+top: 562px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 132%;
+color: #858484;
+}
+#login{
+  position: absolute;
+width: 130px;
+height: 52px;
+left: 860px;
+top: 614px;
+background: #585B8A;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+color: #FFFFFF;
+}
+#crea8-acct{
+  position: absolute;
+width: 170px;
+height: 52px;
+left: 1070px;
+top: 614px;
+
+background: #FFFFFF;
+border: 0.5px solid rgba(88, 91, 138, 0.5);
+box-sizing: border-box;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 5px;
+}
+#create{
+  position: absolute;
+  top: 700px;
+  left: 860px;
+font-family: Poppins;
+line-height: 132%;
+width: 300px;
+}
+#signup{
+  text-decoration: none;
+}
+#forgot-p{
+  position: absolute;
+width: 148px;
+height: 21px;
+left: 1110px;
+top: 579px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 132%;
+text-decoration: none;
+}
+.wel-sec{
+  position: absolute;
+  top: -120px;
+}
+.login-ui{
+  position: absolute;
+  top: 150px;
+}
+
+
+
+@media (min-width: 1281px) {
+  
+}
+
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+
+
+}
+
+/*
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+
+}
+
+
+
+/*
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+@media (min-width: 481px) and (max-width: 767px) {
+
+
+
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+
+
+}
+

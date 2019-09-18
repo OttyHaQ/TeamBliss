@@ -1,0 +1,197 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+}
+#logo{
+    position: absolute;
+width: 217px;
+height: 42px;
+left: 138px;
+top: 37px;
+}
+.wel-pics{
+    position: absolute;
+width: 707px;
+height: 608.98px;
+left: 5px;
+top: 258.02px;
+}
+h2{
+    position: absolute;
+width: 464px;
+height: 75px;
+left: 735px;
+top: 135px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 132%;
+text-align: center;
+color: #484747;
+}
+
+#par1{
+    position: absolute;
+width: 457px;
+height: 75px;
+left: 742px;
+top: 209px;
+font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+line-height: 132%;
+color: #484747;
+}
+#par2{
+    position: absolute;
+width: 299px;
+height: 21px;
+left: 742px;
+top: 330px;
+}
+label{
+    width: 102px;
+height: 21px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 132%;
+    color: #858484;
+}
+input{
+    width: 258px;
+height: 55px;
+    background: #FFFFFF;
+    border: 0.5px solid #C4C4C4;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+}
+label[for="fname"]{
+    position: absolute;
+left: 742px;
+top: 386px;
+}
+input[name="fname"]{
+    position: absolute;
+left: 742px;
+top: 421px;
+}
+label[for="lname"]{
+    position: absolute;
+left: 1042px;
+top: 386px;
+}
+input[name="lname"]{
+    position: absolute;
+left: 1042px;
+top: 421px;
+}
+label[for="uname"]{
+    position: absolute;
+left: 742px;
+top: 508px;
+}
+input[name="uname"]{
+    position: absolute;
+left: 742px;
+top: 543px;
+}
+label[for="emai"]{
+    position: absolute;
+    left: 1042px;
+    top: 508px;    
+}
+input[name="emai"]{
+    position: absolute;
+left: 1042px;
+top: 543px;
+}
+label[for="psword"]{
+    position: absolute;
+left: 742px;
+top: 630px;
+
+}
+input[name="psword"]{
+    position: absolute;
+width: 258px;
+height: 55px;
+left: 742px;
+top: 665px;
+}
+label[for="cpsword"]{
+    position: absolute;
+left: 1042px;
+top: 630px;
+width: 258px;
+height: 55px;
+}
+input[name="cpsword"]{
+    position: absolute;
+left: 1042px;
+top: 665px;
+}
+input[type="checkbox"]{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 132%;
+color: #858484;
+}
+#rec-email{
+    position: absolute;
+width: 23px;
+height: 23px;
+left: 742px;
+top: 744px;
+}
+#receivemail{
+    position: absolute;
+width: 342px;
+height: 21px;
+left: 770px;
+top: 746px;
+}
+#terms{
+    position: absolute;
+width: 24.18px;
+height: 23px;
+left: 743px;
+top: 782px;
+}
+#term{
+    position: absolute;
+width: 359.56px;
+height: 21px;
+left: 772.44px;
+top: 784px;
+}
+button{
+    position: absolute;
+width: 170px;
+height: 52px;
+left: 743px;
+top: 859px;
+text-align: center;
+color: #585B8A;
+background: #ffffff;
+font-size: 16px;
+line-height: 132%;
+}
+button:hover{
+    background: #585B8A;
+    color: #ffffff;
+}

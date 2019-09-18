@@ -6,46 +6,36 @@
   <title>Blisscapital</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="login.css">
-  <!-- <link rel="stylesheet" href="css/fontawesome.min.css"> -->
+  <link rel="stylesheet" href="css/login.css" type="text/css">
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
-
-  <!-- Add your site or application content here -->
   <div id="container">
     <div id="logo">
-     <img logo src="logo.png" alt="logo">
+     <img logo src="img/logo.png" alt="logo">
     </div>
     <div class="login-ui">
-      <img business-deal src="undraw_business_deal_cpi9.png" alt="business deal">
+      <img business-deal src="img/undraw_business_deal_cpi9.png" alt="business deal">
     </div>
     <div class="wel-sec">
       <h2>Welcome Back : )</h2>
       <p id="wel-text">To stay connected to your finance dashboard,<br>please login with your username and password</p>
       <div class="form-container">
-        <form>
+        <form action="" method="GET">
           <div id="us-container">
             <i class="fa fa-user icon"></i>
+          
             <input type="text" id="username" name="username"
             placeholder="Username/email address">
           </div>
 
           <div id="ps-container">
               <i class="fa fa-key icon"></i>
+           
               <input type="password" placeholder="Password" id="password" name="password" required>
-          </div>
+            </div>
 
           <input id="check" type="checkbox" checked><p id="rem">Remember me</p>
           <a href="#" id="forgot-p">Forgot Password?</a>
