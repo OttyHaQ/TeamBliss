@@ -1,63 +1,56 @@
-<!doctype html>
-<html class="no-js" lang="">
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Blisscapital</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/login.css" type="text/css">
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="css/signup.css" type="text/css">
 </head>
-
 <body>
-  <div id="container">
     <div id="logo">
-     <img logo src="img/logo.png" alt="logo">
+        <img src="img/logo.png" alt="logo">
     </div>
-    <div class="login-ui">
-      <img business-deal src="img/undraw_business_deal_cpi9.png" alt="business deal">
+    <div class="wel-pics">
+        <img src="img/stripe payment.png" alt="business-pics">
     </div>
-    <div class="wel-sec">
-      <h2>Welcome Back : )</h2>
-      <p id="wel-text">To stay connected to your finance dashboard,<br>please login with your username and password</p>
-      <div class="form-container">
-        <form action="" method="POST">
-          <div id="us-container">
-            <i class="fa fa-user icon"></i>
-          
-            <input type="text" id="username" name="username"
-            placeholder="Username/email address">
-          </div>
+    <div>
+        <h2>Welcome to Bliss Capital</h2>
+        <p id="par1">Let's get you all setup so you can start managing<br> your financial transactions without stress. We are<br> excited to have you!</p>
 
-          <div id="ps-container">
-              <i class="fa fa-key icon"></i>
-           
-              <input type="password" placeholder="Password" id="password" name="password" required>
-            </div>
+        <p id="par2">Already have an account? <a href="#"> Log in </a></p>
+    </div>
 
-          <input id="check" type="checkbox" checked><p id="rem">Remember me</p>
-          <a href="#" id="forgot-p">Forgot Password?</a>
-          <button id="login" type="submit">Login now</button>
+    <div>
+        <form action="index.php" method="POST">
+            <label for="fname">First Name</label>
+            <input type="text" name="fname" id="fname">
+
+            <label for="lname">Last Name</label>
+            <input type="text" name="lname" id="lname">
+
+            <label for="uname"> Username</label>
+            <input type="text" name="uname" id="uname">
+
+            <label for="emai">Email Address</label>
+            <input type="email" name="emai" id="emai">
+
+            <label for="psword">Password</label>
+            <input type="password" name="psword" id="psword">
+
+            <label for="cpsword">Confirm Password</label>
+            <input type="password" name="cpsword" id="cpsword">
+
+            <input id="rec-email" type="checkbox" checked>
+            <p id="receivemail">Yes, I want to receive Bliss Capital's emails</p>
+
+            <input id="terms" type="checkbox" checked>
+            <p id="term">I agree to the <a href="#">Terms</a>, <a href="#">Privacy Policy</a> and <a href="#">Fees</a></p>
+
+            <button type="submit">Create Account</button>
         </form>
 
-        <p id="create">Don't have an account yet? <a href="#" id="signup"> Sign up</a></p>
-      </div>
+      
     </div>
-  </div>
-  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
-
 </html>
